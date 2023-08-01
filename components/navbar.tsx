@@ -4,7 +4,8 @@ import { cn } from "@/lib/utils";
 import { UserButton } from "@clerk/nextjs";
 import { Menu, Sparkles } from "lucide-react";
 import Link from "next/link";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";
+import { ModeToggle } from "./common/modeToggle";
 
 const Navbar = () => {
   return (
@@ -26,6 +27,7 @@ const Navbar = () => {
           Upgrade
           <Sparkles className="h-4 w-4 fill-white text-white ml-2" />
         </Button>
+        <ModeToggle />
         <UserButton />
       </div>
     </div>
