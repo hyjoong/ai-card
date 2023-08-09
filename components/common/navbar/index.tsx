@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { UserButton } from "@clerk/nextjs";
 import { Menu, Sparkles } from "lucide-react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/common/button";
 import { ModeToggle } from "../modeToggle";
 import MobileSidebar from "../mobileSidebar";
 

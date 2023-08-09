@@ -1,5 +1,5 @@
 import React from "react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/common/sheet";
 import Sidebar from "@/components/common/sidebar";
 import { Menu } from "lucide-react";
 
